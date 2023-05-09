@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 //definir rutas: login, categorias, index y not found
 app.get('/',(req,res)=>{
-    res.render('index')
+    res.render('table')
 })
 
 app.get('/login',(req,res)=>{
